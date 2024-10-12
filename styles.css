@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: auto;
+    padding-left: 10px;
+    transition: 0.1s;
+    font-size: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navbar:hover {
+    font-size: 40px;
+}
+
+.navbar li {
+    font-family: arial;
+    margin: 0px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: black;
+    font-size: inherit;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar li:hover {
+    margin: 8px;
+    padding: 2px;
+    background-color: white;
+    color: black;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    padding: 100px;
+    width: 100%;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    color: white;
+    font-family: Courier;
+    background-color: #111;
+    font-size: 40px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.banner:hover {
+    font-size: 50px;
+}
+
+.home-content {
+    width: 50%;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.home-content.right-line {
+    border-right: 2px solid #101010;
+}
+
+.home-content-endline {
+    border-style: solid;
+    border-color: currentColor;
+    color: #101010;
+    clear: both;
+}
+
+.centered {
+    margin: auto;
+}
+
+.home-content img {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+
+.home-content img.float-left {
+    margin-right: 15px;
+}
+
+.home-content img.float-right {
+    margin-left: 15px;
+}
+
+.rounded_img {
+    border-radius: 50%;
+    overflow: hidden;
+    shape-outside: circle();
+}
+
+.banner h1 {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: inherit;
+    transition: 0.5s;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.home-content h1 {
+    text-indent: 1em;
+    font-size: 40px;
+    transition: 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9)
+}
+
+.home-content h1:hover {
+    border: none;
+    font-size: 45px;
+    background-color: #171717;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
+}
+
+.home-content p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-family: helvetica;
+    text-indent: 2em;
+}
+
+.rel-bottom-left {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+.note {
+    font-style: italic;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.link {
+    text-decoration: none;
+    color: lightblue;
+    transition: 0.5s;
+    font-family: inherit;
+    font-size: inherit;
+    border-bottom: 2px solid transparent;
+}
+
+.article-list li {
+    color: white;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.indent-2 {
+    text-indent: 2em;
+}
+
+a.link:hover {
+    border-bottom: 2px solid lightblue;
+}
+
+.article-content {
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.article-content h1 {
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.article-content h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.article-content p {
+    text-indent: 2em;
+    color: white;
+    font-size: 20px;
+}
+
+.article-content table {
+    border-collapse: collapse;
+    color: white;
+}
+
+.article-content th,
+.article-content td {
+    border: 2px solid white;
+    padding: 2px;
+}
+
+.article-content hr {
+    clear: both;
+}
+
+.article-content table {
+    margin: 0px 10px 0px 10px;
+}
+
+.no-indent {
+    text-indent: 0px;
+}
