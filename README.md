@@ -1,3 +1,3 @@
-- This is a Laboratory Activity on Modules 1-5.
-- The topics covered in this activity are the basics of HTML, HTML tables, proper web design principles, and the basics of CSS.
+- This is a Laboratory Activity on Modules 1-7.
+- The topics covered in this activity are the basics of HTML, HTML tables, proper web design principles, the basics of CSS, new features of HTML5, & other more.
 - https://github.com/DerekTBernal/FirstQuarterProject
