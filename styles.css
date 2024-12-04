@@ -108,6 +108,10 @@ main aside.home-content {
     border-radius: 50%;
     overflow: hidden;
     shape-outside: circle();
+    transition: 1s;
+}
+.rounded_img:hover {
+    transform: scale(1.2) rotate(-5deg);
 }
 
 header .banner h1 {
@@ -167,6 +171,7 @@ header .banner h1 {
 }
 
 .link {
+    display: inline-block;
     text-decoration: none;
     color: lightblue;
     transition: 0.5s;
@@ -187,6 +192,7 @@ header .banner h1 {
 }
 
 a.link:hover {
+    transform: translate(0, -5px);
     border-bottom: 2px solid lightblue;
 }
 
