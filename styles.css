@@ -184,7 +184,7 @@ header .banner h1 {
     border-bottom: 2px solid transparent;
 }
 
-.link[href^="http://"] {
+.link[href^="http"] {
     color: grey;
 }
 
