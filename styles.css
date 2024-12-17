@@ -70,6 +70,7 @@ main section.home-content {
     padding: 10px;
     box-sizing: border-box;
 }
+
 main aside.home-content {
     width: 25%;
     overflow: auto;
@@ -110,6 +111,7 @@ main aside.home-content {
     shape-outside: circle();
     transition: 1s;
 }
+
 .rounded_img:hover {
     transform: scale(1.2) rotate(-5deg);
 }
@@ -126,7 +128,8 @@ header .banner h1 {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
-.home-content h1 {
+.home-content h1,
+#contact-list h1 {
     text-indent: 1em;
     font-size: 40px;
     transition: 0.5s;
@@ -135,10 +138,11 @@ header .banner h1 {
     color: white;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9)
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
-.home-content h1:hover {
+.home-content h1:hover,
+#contact-list h1:hover {
     border: none;
     font-size: 45px;
     background-color: #171717;
@@ -180,6 +184,10 @@ header .banner h1 {
     border-bottom: 2px solid transparent;
 }
 
+.link[href^="http://"] {
+    color: grey;
+}
+
 .article-list li {
     color: white;
     list-style-type: none;
@@ -208,7 +216,7 @@ article {
     width: 50%;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 article h1 {
@@ -262,4 +270,73 @@ footer p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-style: italic;
+}
+
+#walking-sprite {
+    background: url('images/anim_sprite.png') no-repeat;
+    animation: walking-sprite-anim 1s steps(1) infinite;
+    background-size: 512px 512px;
+    background-position-y: -52px;
+    width: 48px;
+    height: 68px;
+    image-rendering: pixelated;
+    transition: 0.5s;
+}
+
+#walking-sprite:hover {
+    transform: translateY(-5px);
+}
+
+#contact-list {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-list .link {
+    margin-left: 10px;
+}
+
+@keyframes walking-sprite-anim {
+    0% {
+        background-position-x: -40px;
+    }
+    25% {
+        background-position-x: -168px;
+    }
+    50% {
+        background-position-x: -296px;
+    }
+    75% {
+        background-position-x: -424px;
+    }
+}
+
+.half-block {
+    width: 50%;
+}
+
+.facebook-logo {
+    background: url('images/socmed_logos.png') no-repeat -24px -21px;
+    background-size: 240px 240px;
+    width: 55px;
+    height: 57px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.facebook-logo:hover {
+    transform: translateY(-5px);
+}
+
+::selection {
+    color: black;
+    background-color: white;
+}
+
+article table tr:nth-child(odd) td {
+    color: purple;
+}
+
+article table tr:nth-child(even) {
+    color: blue;
 }
