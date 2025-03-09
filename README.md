@@ -1,3 +1,7 @@
-- This is a Laboratory Activity on Modules 1-7.
-- The topics covered in this activity are the basics of HTML, HTML tables, proper web design principles, the basics of CSS, new features of HTML5, & other more.
-- https://github.com/DerekTBernal/FirstQuarterProject
+The quiz has been integrated at the quiz page, located in the info folder.
+
+Basically, the quiz has 5 questions with 4 choices each. You have to select a choice first then click submit to validate that answer.
+The user may also click the previous button or the next button to navigate through questions that have already been answered.
+Going to previous questions would only allow you to see the correct answers, not your previous answers.
+
+After submitting your answer to the fifth question, your score is then displayed with some feedback.
