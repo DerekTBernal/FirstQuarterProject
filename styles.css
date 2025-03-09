@@ -340,3 +340,50 @@ article table tr:nth-child(odd) td {
 article table tr:nth-child(even) {
     color: blue;
 }
+
+.quiz-section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-family: helvetica;
+}
+
+.quiz {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.quiz h2 {
+   width: 90%;
+   margin: auto;
+}
+
+.quiz button {
+   font-size: 15px;
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   box-sizing: border-box;
+   border: 2px solid #0e0e0e;
+   background-color: #1f1f1f;
+   transition: 0.5s;
+}
+
+.quiz button:hover {
+   background-color: #0e0e0e;
+}
+
+.quiz .choice {
+   width: 100%;
+}
+
+.quiz-score {
+   border: 2px solid white;
+   border-radius: 15px;
+   color: white;
+   width: 40px;
+   text-align: center;
+   margin-left: 15px;
+}
